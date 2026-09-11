@@ -20,3 +20,68 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+.logo{
+    color: #111;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.menu{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+.menu{
+color: #666;
+text-decoration: none;
+font-size: 14px;
+}
+.menu a:hover:{
+    color: #111;
+}
+.hero{
+    max-width: 850px;
+    margin: auto;
+    padding: 120px 30px;
+    text-align: center;
+}
+.tag{
+    display: inline-block;
+    padding: 8px 14px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+.hero h1 span{
+    color: #777;
+}
+.hero > p{
+    max-width: 550px;
+    margin: auto;
+    margin-bottom: 35px;
+    color: #777;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.hero-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+.button{
+    padding: 14px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.2s;
+}
+.primary{
+    background-color: #111;
+    color: white;
+}
+.secondary{
+    border: 1px solid #ddd;
+    color: #333;
+    background-color: white;
+}
